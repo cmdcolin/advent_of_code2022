@@ -6,6 +6,17 @@ license = "MIT"
 readme = "README.md"
 repository = "https://github.com/cmdcolin/advent_of_code2022"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+
+[[bin]]
+name = "day1"
+path = "src/day1.rs"
+
+[[bin]]
+name = "day2_1"
+path = "src/day2_1.rs"
+
+
+[[bin]]
+name = "day2_2"
+path = "src/day2_2.rs"
